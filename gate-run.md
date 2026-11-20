@@ -158,3 +158,25 @@ Not yet: COP31 final text (due midnight Fri); Take-Two's official GTA VI figures
 - W3: Panel 5 (Anthropic) is a portrait image cropped into a landscape slot —
   the tower is centred and fine, but the neural-web motif is cropped at the
   top; the rising chart line survives.
+
+## Fix agent — GTA deck wording (20 Nov 2026 ~15:27 WITA)
+
+- Coordinator's independent verification found one weak point: panel 6 deck read
+  "24.58m copies, $2.36bn by Thu evening; Take-Two silent. REUTERS". The $2.36bn
+  figure is correct first-reported 20 Nov (NEWS.md §6: Thursday-evening update
+  24.58m/$2.36bn first reported 20 Nov; 19 Nov only had the Reuters ~$2bn piece
+  + the launch), but "by Thu evening" in the image invited a judge to read the
+  figure as a 19 Nov number.
+- Fix (one string only, compose.py line 176): deck now reads "24.58m copies,
+  $2.36bn reported Fri; Take-Two silent. REUTERS". Numbers unchanged, no other
+  panel touched, NEWS.md unchanged (already correct), big-number strip unchanged
+  ("$2.36bn GTA VI day one (est.)").
+- Verification: compose.py re-run 2× — byte-identical, entry.png
+  sha256 fcb7967a54798735d99ef945f630c51576dcb08406c82128a4587396b494de58,
+  268,225 bytes (was fbc0176a9217b8723106dc1a3266dc193efa0c5c17eeec84d810a5e294310ee,
+  268,247 bytes). Visual check: panel 6 deck reads correctly on two lines, no
+  overflow; pixel-diff vs old image confined to the panel 6 deck region
+  (mean diff 10.26 there, ≤0.02 elsewhere; big-number strip 0.0). main.ts
+  (node22) re-run 2× — byte-identical, sha matches the new entry.png.
+  entry-300px.png regenerated (audit artefact only, not pushed).
+- Pushed via Git Data API (push-fix.py adapted: entry.png + gate-run.md only).
