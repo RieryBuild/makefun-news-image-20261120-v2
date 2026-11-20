@@ -11,8 +11,9 @@ DATE CHECK footer of the image.
 A story whose first report landed late on 19 November UTC but on 20 November
 in Asia is never a lead and never a hero. It may appear mid-list only, marked
 `*` in the image, with its exact UTC timestamp and the time-zone reasoning
-here. Five stories are grey-zone: Japan core CPI, Daraxonrasib, Lula/Raoni,
-Bukele, Berlin Coalition of the Willing.
+here. Five stories are grey-zone by the UTC rule, plus the Anthropic close
+(see below) — six marked `*` in total: Japan core CPI, Daraxonrasib, Lula/Raoni,
+Bukele, Berlin Coalition of the Willing, Anthropic close.
 
 ## Heroes (panels 1–3)
 
@@ -88,6 +89,10 @@ Bukele, Berlin Coalition of the Willing.
 - **Japan core CPI 2.2%** — released Friday 08:30 JST = Thursday 23:30 UTC;
   first reports late 19 Nov UTC (Reuters). The release event itself fell on
   20 Nov in Japan, so it is listed with the `*` note.
+- **Anthropic first close $97.17, +17%** — the close happened in the 19 Nov
+  New York session (16:00 EST = 21:00 UTC 19 Nov); first reports late 19 Nov
+  UTC; the close fell on 20 Nov 06:00 JST / 05:00 WITA. Counted as Friday's
+  follow-up in Asia; marked `*` in the image.
 - **Daraxonrasib 60.7%** — press release 19 Nov; first report 19 Nov 23:01
   UTC; presented 20 Nov at ENA Barcelona; BBC 20 Nov. 61 patients, 60.7%
   response, 8.2% complete responses.
@@ -140,7 +145,7 @@ Bukele, Berlin Coalition of the Willing.
 ## Big-number strip (all 20 Nov events)
 
 300,000+ evacuated (Odisha) · 90 km/h Akvan gusts · +17% Anthropic close
-($97.17) · ~$2bn GTA VI day-one sales (est.) · 118 Phillips · 2.2% Japan
+($97.17) * · $2.36bn GTA VI day-one sales (est.) · 118 Phillips · 2.2% Japan
 core CPI (grey-zone, see above).
 
 ## UTC timeline strip (all 20 Nov UTC)
