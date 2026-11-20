@@ -179,4 +179,7 @@ Not yet: COP31 final text (due midnight Fri); Take-Two's official GTA VI figures
   (mean diff 10.26 there, ≤0.02 elsewhere; big-number strip 0.0). main.ts
   (node22) re-run 2× — byte-identical, sha matches the new entry.png.
   entry-300px.png regenerated (audit artefact only, not pushed).
-- Pushed via Git Data API (push-fix.py adapted: entry.png + gate-run.md only).
+- Pushed via Git Data API (push-fix-gta.py: entry.png + gate-run.md only).
+  Commit f0e30ac99b22b654d0ddb431c667d1404d6997ac (parent 5ff4f595);
+  remote blob entry.png 3f64346097949064e5f57a24185b57ba76f0cfac verified
+  matching local. This line updated with the commit SHA in a follow-up commit.
